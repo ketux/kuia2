@@ -1,0 +1,825 @@
+* {
+    background-color: #6990ba;
+    width: auto;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 5vw;
+}
+
+.lead {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 3vw;
+}
+
+.signUpButton {
+    display: inline-block;
+    padding: 1vw 2vw;
+    border: 0;
+    font-size: 2vw;
+
+    background-color: #4B9DA3;
+    color: #f3f3f3;
+
+    cursor: pointer;
+    border-radius: 2px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.White {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 40px;
+    z-index: 9 !important;
+}
+
+.White2 {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 20px;
+    z-index: 9 !important;
+}
+
+
+.AutoComplete input {
+    display: block;
+    width: 91.7%;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    font-family: 7Arial, Helvetica, sans-serif;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: -520px;
+    margin-left: 80px;
+
+    background-color: #f26a4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.AutoComplete {
+    width: 100%;
+    height: 120px;
+    border: 1px solid white;
+    background-color: #ec4218;
+    margin-top: 45px;
+}
+
+.AutoComplete2 {
+    width: 100%;
+    height: 120px;
+    border: 1px solid white;
+    background-color: #ec4218;
+    margin-top: 25px;
+}
+
+.AutoComplete2 input {
+    display: block;
+    width: 91.6%;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: -60px;
+    margin-left: 80px;
+
+    background-color: #f26a4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+    margin-top: 420px;
+    width: 100%;
+
+}
+
+.AutoComplete ul {
+
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left;
+    background-color: white;
+    max-height: 400px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid grey;
+    overflow-y: scroll;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-right: 73px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.AutoComplete ul::before {
+    content: "";
+}
+
+.AutoComplete li {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: white;
+    height: 50px;
+    padding: 10px 5px;
+    cursor: pointer;
+    z-index: 1000 !important;
+
+}
+
+.AutoComplete li:hover {
+    text-decoration: underline;
+    background-color: grey;
+    color: white;
+
+}
+
+.App {
+    text-align: center;
+    width: 600px;
+}
+
+.Page-Component {
+    margin: 150px auto 0 auto;
+    margin: 150px auto 0 auto;
+    width: 600px;
+}
+
+
+
+
+
+
+/*sm - small pritaikytas plansetems*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+    * {
+        background-color: #6990ba;
+        width: auto;
+    }
+
+    .White {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 40px;
+        z-index: 9 !important;
+    }
+
+    .White2 {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 20px;
+        z-index: 9 !important;
+    }
+
+    .AutoComplete input {
+        display: block;
+        width: 85.7%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -520px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .AutoComplete {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 45px;
+    }
+
+    .AutoComplete2 {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 25px;
+    }
+
+    .AutoComplete2 input {
+        display: block;
+        width: 85.7%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -60px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: white;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        background-color: white;
+        margin-top: 420px;
+        width: 100%;
+
+    }
+
+    .nobagr {
+        width: 100%;
+        height: 40px;
+        margin-top: 440px;
+    }
+
+    .AutoComplete ul {
+
+        list-style-type: none;
+        font-size: 20px;
+        text-align: left;
+        background-color: white;
+        max-height: 400px;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid grey;
+        overflow-y: scroll;
+        overflow: hidden;
+        margin-left: 85px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 0;
+
+    }
+
+    ::placeholder {
+        text-align: left;
+        color: white;
+    }
+}
+
+/*md - medium, skirtas paprastiems monitoriams */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    * {
+        background-color: #6990ba;
+        width: auto;
+    }
+
+    .White {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 40px;
+        z-index: 9 !important;
+    }
+
+    .White2 {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 20px;
+        z-index: 9 !important;
+    }
+
+    .AutoComplete input {
+        display: block;
+        width: 89.5%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -520px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .AutoComplete {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 45px;
+    }
+
+    .AutoComplete2 {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 25px;
+    }
+
+    .AutoComplete2 input {
+        display: block;
+        width: 89.5%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -60px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: white;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        background-color: white;
+        margin-top: 420px;
+        width: 100%;
+
+    }
+
+    .AutoComplete ul {
+
+        list-style-type: none;
+        font-size: 20px;
+        text-align: left;
+        background-color: white;
+        max-height: 400px;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid grey;
+        overflow-y: scroll;
+        overflow: hidden;
+        margin-left: 85px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 0;
+
+    }
+
+    .nobagr {
+        width: 100%;
+        height: 40px;
+        margin-top: 440px;
+    }
+
+    ::placeholder {
+        text-align: left;
+        color: white;
+    }
+}
+
+/*lg - large, skirtas dideliems monitoriams, televizoriams */
+@media (min-width: 992px) and (max-width: 1099px) {
+
+    * {
+        background-color: #6990ba;
+        width: auto;
+    }
+
+    .White {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 40px;
+        z-index: 9 !important;
+    }
+
+    .White2 {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 20px;
+        z-index: 9 !important;
+    }
+
+    .AutoComplete input {
+        display: block;
+        width: 91.7%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -520px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .AutoComplete {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 45px;
+    }
+
+    .AutoComplete2 {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 25px;
+    }
+
+    .AutoComplete2 input {
+        display: block;
+        width: 91.5%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -60px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: white;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        background-color: white;
+        margin-top: 420px;
+        width: 100%;
+
+    }
+
+    .AutoComplete ul {
+
+        list-style-type: none;
+        font-size: 20px;
+        text-align: left;
+        background-color: white;
+        max-height: 400px;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid grey;
+        overflow-y: scroll;
+        overflow: hidden;
+        margin-left: 95px;
+        margin-right: 15px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 0;
+
+    }
+
+    .nobagr {
+        width: 100%;
+        height: 40px;
+        margin-top: 440px;
+    }
+
+    ::placeholder {
+        text-align: left;
+        color: white;
+    }
+}
+
+/*xl - extra large, skirtas 4k+ monitoriu, televizoriu, projektoriu. Labai didele raiska */
+@media (min-width: 1200px) {
+
+    * {
+        background-color: #6990ba;
+        width: auto;
+    }
+
+    .White {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 40px;
+        z-index: 9 !important;
+    }
+
+    .White2 {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 20px;
+        z-index: 9 !important;
+    }
+
+    .AutoComplete input {
+        display: block;
+        width: 91.7%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -520px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .AutoComplete {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 25px;
+    }
+
+    .AutoComplete2 {
+        width: 100%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 25px;
+    }
+
+    .AutoComplete2 input {
+        display: block;
+        width: 91.7%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -60px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: white;
+    }
+
+    h2 {
+        text-align: center;
+        background-color: white;
+        margin-top: 420px;
+    }
+
+
+    .AutoComplete ul {
+
+        list-style-type: none;
+        font-size: 20px;
+        text-align: left;
+        background-color: white;
+        max-height: 400px;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid grey;
+        overflow-y: scroll;
+        overflow: hidden;
+        margin-left: 275px;
+        margin-right: 198px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 0;
+
+    }
+
+
+    .nobagr {
+        width: 100%;
+        height: 40px;
+        margin-top: 440px;
+    }
+
+    ::placeholder {
+        text-align: left;
+        color: white;
+    }
+}
+
+/*xs - extra small mobiliems */
+@media (max-width: 575px) {
+
+    * {
+        background-color: #6990ba;
+        width: auto;
+    }
+
+    .White {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 40px;
+        z-index: 9 !important;
+    }
+
+    .White2 {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin-top: 20px;
+        z-index: 9 !important;
+    }
+
+    .AutoComplete input {
+        display: block;
+        width: 70.5%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -520px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .AutoComplete {
+        width: 98%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 25px;
+    }
+
+    .AutoComplete2 {
+        width: 98%;
+        height: 120px;
+        border: 1px solid white;
+        background-color: #ec4218;
+        margin-top: 25px;
+    }
+
+    .AutoComplete2 input {
+        display: block;
+        width: 70.5%;
+        height: 80px;
+        font-size: 20px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        outline: none;
+        margin-top: -60px;
+        margin-left: 80px;
+
+        background-color: #f26a4c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: white;
+        width: 98%;
+    }
+
+    h2 {
+        text-align: center;
+        background-color: white;
+        margin-top: 420px;
+        width: 98%;
+
+    }
+
+
+
+    .AutoComplete ul {
+
+        list-style-type: none;
+        font-size: 14px;
+        text-align: left;
+        background-color: white;
+        max-height: 400px;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid grey;
+        overflow-y: scroll;
+        overflow: hidden;
+        margin-left: 85px;
+        margin-right: 10px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+
+    }
+
+
+    .nobagr {
+        width: 100%;
+        height: 40px;
+        margin-top: 440px;
+    }
+
+    ::placeholder {
+        text-align: left;
+        color: white;
+    }
+}

@@ -26,3 +26,21 @@
   text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
   box-shadow: 0px 5px 25px -5px rgba(0,0,0,0.5);
 }
+
+.Page-Component {
+    margin: 150px auto 0 auto;
+    width: 600px;
+}
+
+.AutoComplete {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.AutoComplete input {
+    width: 100%;
+    border: none;
+}
+
+
+
